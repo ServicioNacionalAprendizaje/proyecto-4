@@ -9,7 +9,7 @@ Para la instalación de paquetes debemos seguir las instrucciones a continuació
 virtual llamado myapp.
 - Activar el entorno virtual: Desde la terminal abrimos la carpeta de 
 nuestro entorno virtual (myapp), y luego abrimos la carpeta Scripts. La ruta seria esta: Ferreteria\myapp\Scripts>
-Ahora escribimos el comando: activate (si activate no funciona prueba con .\activate).
+- Ahora escribimos el comando: activate (si activate no funciona prueba con .\activate).
 
 - Una vez activado el entorno virtual, regresamos a la carpeta Ferreteria (donde se encuentra el archivo requirement.txt) y ejecutamos
 el comando: __pip install -r "requirements.txt"__ 

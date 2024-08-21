@@ -7,7 +7,7 @@ Para la instalación de paquetes debemos seguir las instrucciones a continuació
 - Abrir la carpeta Ferreteria con el IDE de preferencia
 - Abrir la terminal y ejecutar el comando __python -m venv myapp__ . Este comando creara un entorno 
 virtual llamado myapp.
-- Activar el entorno virtual: Desde la terminal abrimos la carpeta de 
+- __Activar el entorno virtual__: Desde la terminal abrimos la carpeta de 
 nuestro entorno virtual (myapp), y luego abrimos la carpeta Scripts. La ruta seria esta: Ferreteria\myapp\Scripts>
 - Ahora escribimos el comando: activate (si activate no funciona prueba con .\activate).
 
@@ -19,7 +19,7 @@ el comando: __pip install -r "requirements.txt"__
 En el paso anterior instalamos los paquetes necesarios para correr la aplicación, ahora
 ejecutaremos tres comandos para mantener la integridad de los datos. 
 
-- Abrir la carpeta ecom
+- En la carpeta Ferreteria ejecutamos los siguientes comandos:
 - Ejecutar el comando __python manage.py makemigrations__
 - Ejecutar el comando __python manage.py migrate__
 - Iniciar la apliación: Ejecutar el comando __python manage.py runserver__

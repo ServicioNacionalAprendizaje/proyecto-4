@@ -32,14 +32,14 @@ __IMPORTANTE__: Es necesario activar el entorno virtual antes de iniciar la apli
 
 ## Usuario administrador
 Para acceder a la consola de administración es necesario tener un usuario administrador.
-Django nos permite crear uno escribiendo el comando:  __python manage.py createsuperuser__. Siga las indicaciones para crear el usuario.
-Para acceder a la consola de administracion solo debe escribir admin junto a la dirección de la pagina: http://127.0.0.1:8000/admin/
+- Django nos permite crear uno escribiendo el comando:  __python manage.py createsuperuser__. Siga las indicaciones para crear el usuario.
+- Para acceder a la consola de administracion solo debe escribir admin junto a la dirección de la pagina: http://127.0.0.1:8000/admin/
 
 ## Solución de problemas
 
 ## Error al intentar conectarse a la base de datos
-Asegúrate de que el servicio de MySQL esté en ejecución. Si MySQL no está en ejecución inicielo.
-Asegúrate de que la configuración de la base de datos sea correcta:
+- Asegúrate de que el servicio de MySQL esté en ejecución. Si MySQL no está en ejecución inicielo.
+- Asegúrate de que la configuración de la base de datos sea correcta:
 En la carpeta Ferreteria abra la carpeta ecommerce y busque el archivo __settings.py__. Dentro de settings busque __DATABASES__.
 
 - __DATABASE_NAME__: Le indica a Django el nombre de tu base de datos.

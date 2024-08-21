@@ -20,27 +20,27 @@ el comando: __pip install -r "requirements.txt"__
 En el paso anterior instalamos los paquetes necesarios para correr la aplicación, ahora
 ejecutaremos dos comandos para mantener la integridad de los datos. 
 
-- En la carpeta Ferreteria ejecutamos los siguientes comandos:
+En la carpeta Ferreteria ejecutamos los siguientes comandos:
 - Ejecutar el comando __python manage.py makemigrations__
 - Ejecutar el comando __python manage.py migrate__
 
 
 ## Iniciar la aplicación
-- En la carpeta Ferreteria ejecutamos el comando: __python manage.py runserver__
-- __IMPORTANTE__: Es necesario activar el entorno virtual antes de iniciar la aplicación o instalar nuevos paquetes.
+En la carpeta Ferreteria ejecutamos el comando: __python manage.py runserver__
+__IMPORTANTE__: Es necesario activar el entorno virtual antes de iniciar la aplicación o instalar nuevos paquetes.
 
 
 ## Usuario administrador
-- Para acceder a la consola de administración es necesario tener un usuario administrador.
-- Django nos permite crear uno escribiendo el comando:  __python manage.py createsuperuser__. Siga las indicaciones para crear el usuario.
-- Para acceder a la consola de administracion solo debe escribir admin junto a la dirección de la pagina: http://127.0.0.1:8000/admin/
+Para acceder a la consola de administración es necesario tener un usuario administrador.
+Django nos permite crear uno escribiendo el comando:  __python manage.py createsuperuser__. Siga las indicaciones para crear el usuario.
+Para acceder a la consola de administracion solo debe escribir admin junto a la dirección de la pagina: http://127.0.0.1:8000/admin/
 
 ## Solución de problemas
 
 ## Error al intentar conectarse a la base de datos
-- Asegúrate de que el servicio de MySQL esté en ejecución. Si MySQL no está en ejecución inicielo.
-- Asegúrate de que la configuración de la base de datos sea correcta:
-- En la carpeta Ferreteria abra la carpeta ecommerce y busque el archivo settings.py. Dentro de settings busque __DATABASES__.
+Asegúrate de que el servicio de MySQL esté en ejecución. Si MySQL no está en ejecución inicielo.
+Asegúrate de que la configuración de la base de datos sea correcta:
+En la carpeta Ferreteria abra la carpeta ecommerce y busque el archivo __settings.py__. Dentro de settings busque __DATABASES__.
 
 - __DATABASE_NAME__: Le indica a Django el nombre de tu base de datos.
 - __DATABASE_USER__: Le indica a Django cual es el nombre de usuario a usar cuando se conecte con tu base de datos.

@@ -7,9 +7,10 @@ Para la instalación de paquetes debemos seguir las instrucciones a continuació
 - Abrir la carpeta Ferreteria con el IDE de preferencia
 - Abrir la terminal y ejecutar el comando __python -m venv myapp__ . Este comando creara un entorno 
 virtual llamado myapp.
-- Ejecutar el entorno virtual: Desde la terminal abrimos la carpeta de 
-nuestro recien creado entorno virtual, luego abrimos la carpeta Scripts y ejecutamos 
-el archivo activate escribiendo ./activate.
+- Activar el entorno virtual: Desde la terminal abrimos la carpeta de 
+nuestro entorno virtual (myapp), y luego abrimos la carpeta Scripts. La ruta seria esta: Ferreteria\myapp\Scripts>
+Ahora escribimos el comando: activate (si activate no funciona prueba con .\activate).
+
 - Una vez activado el entorno virtual, regresamos a la carpeta Ferreteria (donde se encuentra el archivo requirement.txt) y ejecutamos
 el comando: __pip install -r "requirements.txt"__ 
 

@@ -27,7 +27,7 @@ En la carpeta Ferreteria ejecutamos los siguientes comandos:
 
 ## Iniciar la aplicación
 En la carpeta Ferreteria ejecutamos el comando: __python manage.py runserver__
-__IMPORTANTE__: Es necesario activar el entorno virtual antes de iniciar la aplicación o instalar nuevos paquetes.
+- __IMPORTANTE__: Es necesario activar el entorno virtual antes de iniciar la aplicación o instalar nuevos paquetes.
 
 
 ## Usuario administrador

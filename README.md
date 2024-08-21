@@ -33,7 +33,7 @@ ejecutaremos dos comandos para mantener la integridad de los datos.
 ## Usuario administrador
 - Para acceder a la consola de administración es necesario tener un usuario administrador.
 - Django nos permite crear uno escribiendo el comando:  __python manage.py createsuperuser__. Siga las indicaciones para crear el usuario.
-- Para acceder a la consola de administracion solo debe escribir admin junto a la dirección de la pagina: http://127.0.0.1:8000/__admin/__
+- Para acceder a la consola de administracion solo debe escribir admin junto a la dirección de la pagina: http://127.0.0.1:8000/admin/
 
 ## Solución de problemas
 
